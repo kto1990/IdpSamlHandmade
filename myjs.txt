@@ -1,0 +1,10 @@
+<form id='the-form' 
+      method='post' 
+      enctype='form-data' 
+      action='http://localhost:8008/ssologin/saml/suow'>
+<input type='hidden' name='SAMLResponse' value='%saml_response%'>
+<input type='hidden' name='RelayState' value='739341bf493267a3b0f36b1faf815e68'>
+</form>
+<script type="text/javascript">
+document.getElementById("the-form").submit();
+</script>
